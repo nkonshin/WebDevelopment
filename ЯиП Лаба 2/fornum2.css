@@ -1,0 +1,16 @@
+.hd {
+font-family:Ubuntu;
+font-weight: bold; }
+2
+.table {
+display: table;
+padding: 0;
+} .row {
+display: table-row;
+} .cell {
+border: 1px solid black; display: table-cell;
+}
+ div {
+       margin: 5px;
+       padding: 5px;
+}
