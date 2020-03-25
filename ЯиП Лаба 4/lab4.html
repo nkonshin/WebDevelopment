@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Лабораторная работа №4</title>
+  <script type="text/javascript" src="javascript.js">
+  </script>
+  <style type="text/css">
+    h4 {
+      font-style: italic;
+    }
+    
+    .co:hover {
+      background: #f3bd48;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <h4>Товар</h4>
+    <div>
+    
+      <label for="name">Наименование</label>
+      <input type="text" id="name">
+    </div>
+    <div>
+      <br>
+      <label for="cost">Стоимость</label>
+      <input type="number" id="cost">
+    </div>
+    <br>
+    <input type="button" value="Добавить" onclick="work()">
+  </form>
+
+  <h4>Выберите товар</h4>
+
+  <table id="add_table">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+  </table>
+
+  <input type="button" value="Добавить товар в корзину" onclick="add()">
+
+  <table id="add_table2">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+  </table>
+
+  <input type="number" id="sum" value="">
+  <input type="button" value="Расчет" onclick="summa()">
+</body>
+
+</html>
